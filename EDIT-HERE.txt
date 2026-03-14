@@ -1,0 +1,16 @@
+IMPORTANT - REPLACE THESE PLACEHOLDERS BEFORE LAUNCH
+
+1) DOMAIN
+- Replace every instance of https://your-domain.com/ with your real domain.
+
+2) GOOGLE ANALYTICS
+- Replace GA_ID with your Google Analytics Measurement ID.
+
+3) META PIXEL
+- Replace META_PIXEL_ID with your Meta Pixel ID.
+
+4) TIKTOK PIXEL
+- Replace TIKTOK_PIXEL_ID with your TikTok Pixel ID.
+
+5) CONTACT EMAIL
+- Replace contact@example.com with your real email.

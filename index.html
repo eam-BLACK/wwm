@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Where Winds Meet - Open-World Wuxia Action Adventure Game</title>
+  <meta name="description" content="Enter the world of Where Winds Meet, an open-world wuxia action adventure where martial arts, exploration, and ancient legends collide. Watch the trailer, explore screenshots, and play on Steam." />
+  <meta name="keywords" content="Where Winds Meet, open world wuxia game, martial arts game, action adventure RPG, Steam game, PC game, open world action game" />
+  <meta name="author" content="Where Winds Meet Campaign Landing Page" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://wherewindsmeet.netlify.app/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wherewindsmeet.netlify.app/" />
+  <meta property="og:title" content="Where Winds Meet - Open-World Wuxia Action Adventure" />
+  <meta property="og:description" content="Watch the trailer, explore gameplay screenshots, and discover the world of Where Winds Meet." />
+  <meta property="og:image" content="https://wherewindsmeet.netlify.app/assets/feature-explore.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Where Winds Meet gameplay screenshot" />
+  <meta property="og:site_name" content="Where Winds Meet" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Where Winds Meet - Open-World Wuxia Action Adventure" />
+  <meta name="twitter:description" content="Watch the trailer, view screenshots, and step into the world of Where Winds Meet." />
+  <meta name="twitter:image" content="https://wherewindsmeet.netlify.app/assets/feature-explore.jpg" />
+
+  <!-- Theme & Appearance -->
+  <meta name="theme-color" content="#05070d" />
+  <meta name="msapplication-TileColor" content="#05070d" />
+
+  <!-- Preconnects -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="favicon-180x180.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <style>
+    body{
+font-family:'Inter', sans-serif;
+}
+
+.hero-title,
+.eyebrow,
+h1,h2,h3{
+font-family:'Cinzel', serif;
+letter-spacing:1px;
+}
+.hero-title,
+.eyebrow{
+font-family:'Noto Serif SC', serif;
+}
+.hero-buttons{
+display:flex;
+gap:16px;
+justify-content:center;
+margin-top:24px;
+flex-wrap:wrap;
+}
+
+/* DOWNLOAD BUTTON */
+
+.btn-download{
+position:relative;
+background:linear-gradient(135deg,#e63946,#ff6b6b);
+color:white;
+padding:16px 36px;
+font-size:18px;
+font-weight:700;
+border-radius:6px;
+text-decoration:none;
+overflow:hidden;
+transition:transform .2s ease, box-shadow .2s ease;
+}
+
+/* Hover */
+
+.btn-download:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Shine Effect */
+
+.btn-download::before{
+content:"";
+position:absolute;
+top:0;
+left:-75%;
+width:50%;
+height:100%;
+background:linear-gradient(
+120deg,
+transparent,
+rgba(255,255,255,0.6),
+transparent
+);
+transform:skewX(-20deg);
+animation:shine 3s infinite;
+}
+
+@keyframes shine{
+0%{ left:-75%; }
+100%{ left:125%; }
+}
+
+/* TRAILER BUTTON */
+
+.btn-trailer{
+background:transparent;
+border:2px solid white;
+color:white;
+padding:14px 30px;
+font-size:16px;
+font-weight:600;
+border-radius:6px;
+text-decoration:none;
+transition:all .25s ease;
+}
+
+.btn-trailer:hover{
+background:#c8aa6e;
+color:black;
+box-shadow:0 10px 25px rgba(200,170,110,.35);
+}
+.hero-buttons{
+display:flex;
+gap:16px;
+justify-content:center;
+margin-top:24px;
+flex-wrap:wrap;
+}
+
+/* GOLD DOWNLOAD BUTTON */
+
+.btn-download{
+position:relative;
+background:linear-gradient(135deg,#cfa94b,#f5d97b);
+color:#1a1a1a;
+padding:16px 38px;
+font-size:18px;
+font-weight:700;
+border-radius:6px;
+text-decoration:none;
+overflow:hidden;
+transition:transform .2s ease, box-shadow .2s ease;
+box-shadow:0 6px 20px rgba(0,0,0,0.35);
+}
+
+/* Hover */
+
+.btn-download:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 28px rgba(0,0,0,0.45);
+}
+
+/* Shine effect */
+
+.btn-download::before{
+content:"";
+position:absolute;
+top:0;
+left:-75%;
+width:50%;
+height:100%;
+background:linear-gradient(
+120deg,
+transparent,
+rgba(255,255,255,0.7),
+transparent
+);
+transform:skewX(-20deg);
+animation:shine 3s infinite;
+}
+
+@keyframes shine{
+0%{ left:-75%; }
+100%{ left:125%; }
+}
+
+/* TRAILER BUTTON */
+
+.btn-trailer{
+background:transparent;
+border:2px solid #cfa165;
+color:white;
+padding:14px 30px;
+font-size:16px;
+font-weight:600;
+border-radius:6px;
+text-decoration:none;
+transition:all .25s ease;
+}
+
+.btn-trailer:hover{
+background:#c8aa6e;
+color:black;
+box-shadow:0 10px 25px rgba(200,170,110,.35);
+}
+
+/* TRUST BADGES */
+
+.hero-trust{
+margin-top:16px;
+display:flex;
+gap:18px;
+justify-content:center;
+font-size:14px;
+opacity:0.9;
+flex-wrap:wrap;
+}
+
+.hero-trust span{
+background:rgba(255,255,255,0.08);
+padding:6px 12px;
+border-radius:4px;
+}
+
+  </style>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Where Winds Meet",
+    "description": "An open-world wuxia action adventure game featuring martial arts combat, exploration, and a cinematic world.",
+    "genre": ["Action", "Adventure", "RPG", "Open World"],
+    "gamePlatform": ["PC", "Steam"],
+    "applicationCategory": "Game",
+    "operatingSystem": "Windows",
+    "url": "https://wherewindsmeet.netlify.app/",
+    "image": "https://wherewindsmeet.netlify.app/assets/feature-explore.jpg",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Everstone Studio"
+    },
+    "sameAs": [
+      "https://store.steampowered.com/app/3564740/Where_Winds_Meet/"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "url": "https://store.steampowered.com/app/3564740/Where_Winds_Meet/",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+  <!-- Tracking scripts intentionally removed in this test build. Add your real GA / Meta / TikTok IDs before launch. -->
+</head>
+
+<body>
+
+  <div class="language-dock hero-language-dock" aria-label="Language selector">
+    <div class="language-dock-inner">
+      <button class="language-trigger" type="button" aria-expanded="false" aria-controls="heroLanguageMenu">
+        <span class="language-dock-icon" aria-hidden="true">🌐</span>
+        <span class="language-current current-language-code">EN</span>
+      </button>
+      <div class="language-menu" id="heroLanguageMenu" role="listbox" aria-label="Select language">
+        <button type="button" class="language-option" data-lang="en">EN</button>
+        <button type="button" class="language-option" data-lang="kr">KR</button>
+        <button type="button" class="language-option" data-lang="jp">JP</button>
+        <button type="button" class="language-option" data-lang="vn">VN</button>
+        <button type="button" class="language-option" data-lang="my">MY</button>
+        <button type="button" class="language-option" data-lang="th">TH</button>
+        <button type="button" class="language-option" data-lang="mo">MO</button>
+        <button type="button" class="language-option" data-lang="hk">HK</button>
+        <button type="button" class="language-option" data-lang="tw">TW</button>
+        <button type="button" class="language-option" data-lang="ru">RU</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="floating-nav" aria-label="Quick navigation">
+    <div class="floating-nav-inner container">
+      <a href="#" class="floating-brand" aria-label="Go to top">
+        <img src="assets/hero-logo.webp" alt="" class="floating-brand-logo" width="42" height="42" />
+        <span>Where Winds Meet</span>
+      </a>
+      <div class="floating-nav-actions">
+        <div class="language-dock" aria-label="Language selector">
+          <div class="language-dock-inner">
+            <button class="language-trigger" type="button" aria-expanded="false" aria-controls="navLanguageMenu">
+              <span class="language-dock-icon" aria-hidden="true">🌐</span>
+              <span class="language-current" class="language-current current-language-code">EN</span>
+            </button>
+            <div class="language-menu" id="navLanguageMenu" role="listbox" aria-label="Select language">
+              <button type="button" class="language-option" data-lang="en">EN</button>
+              <button type="button" class="language-option" data-lang="kr">KR</button>
+              <button type="button" class="language-option" data-lang="jp">JP</button>
+              <button type="button" class="language-option" data-lang="vn">VN</button>
+              <button type="button" class="language-option" data-lang="my">MY</button>
+              <button type="button" class="language-option" data-lang="th">TH</button>
+              <button type="button" class="language-option" data-lang="mo">MO</button>
+              <button type="button" class="language-option" data-lang="hk">HK</button>
+              <button type="button" class="language-option" data-lang="tw">TW</button>
+              <button type="button" class="language-option" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+        <a href="#trailer" class="floating-nav-link trailer-scroll-btn">Watch Trailer</a>
+        <a href="https://to.wendiro.com/u?k=9db47141846349488810b469b5a18a32&via=23552" target="_blank" rel="noopener noreferrer sponsored" class="floating-nav-cta">Download Free</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+<header class="hero" role="banner">
+
+  <video class="hero-video" autoplay muted loop playsinline webkit-playsinline preload="auto" poster="assets/hero-video-poster.jpg" aria-hidden="true">
+    <source src="assets/hero-video.webm" type="video/webm" />
+  </video>
+
+  <div class="hero-content container">
+
+    <img src="assets/hero-logo.webp"
+         alt="Where Winds Meet - Game Logo"
+         class="hero-logo"
+         width="280"
+         height="280" />
+
+    <h1 class="sr-only">Where Winds Meet</h1>
+
+    <p class="eyebrow">Become a Legendary Sword Master</p>
+
+    <p class="hero-text">
+      Master fluid martial arts, move like a legend, and carve your own path through a vast wuxia world inspired by ancient China.
+    </p>
+
+    <div class="hero-buttons">
+
+      <!-- MAIN CTA -->
+   
+ <a href="https://to.wendiro.com/u?k=9db47141846349488810b469b5a18a32&via=23552"
+     target="_blank"
+     rel="noopener noreferrer sponsored"
+     class="store-badge-link ">
+    <img src="assets/steam-badge.png"
+         class="store-badge"
+         alt="Available on Steam"
+         width="220"
+         height="64" />
+  </a>
+      <!-- SECONDARY CTA -->
+      <a href="#trailer"
+         class="btn btn-trailer trailer-scroll-btn trailer-match-btn">
+         Watch Trailer
+      </a>
+ 
+  
+
+    </div>
+     <div>
+       <!-- TRUST SIGNALS -->
+    <div class="hero-trust">
+      <span>✔ Free to Play</span>
+      <span>✔ PC on Steam</span>
+      <span>✔ Solo + Co-op</span>
+      <span>✔ Open-World Wuxia RPG</span>
+    </div>
+    <p class="hero-micro">Install free on Steam and enter the jianghu with the official game video playing above.</p>
+
+      </div>
+  </div>
+
+</header>
+
+  <!-- Trailer & Screenshots Section -->
+  <main>
+    <section id="trailer" class="trailer section reveal-on-scroll" aria-label="Official trailer and screenshots">
+      <div class="container trailer-wrap">
+        <p class="section-kicker">Official Trailer</p>
+        <h2>Watch the official game video in full quality.</h2>
+        <div class="video-frame youtube-frame">
+          <iframe
+            src="https://www.youtube.com/embed/PB0i3293jRQ?rel=0&modestbranding=1&playsinline=1"
+            title="Where Winds Meet Official Trailer"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="features-showcase reveal-on-scroll" aria-labelledby="ww-features-title">
+          <p class="gallery-kicker">Key features</p>
+          <h3 id="ww-features-title">Why players click install</h3>
+
+          <div class="features-grid">
+            <article class="feature-card">
+              <img src="assets/feature-weave.webp" alt="Where Winds Meet feature art showing a dramatic battle scene" loading="lazy" width="355" height="189" />
+              <div class="feature-copy">
+                <h4>Weave your story</h4>
+                <p>Uncover your origin, shape your reputation, and decide what kind of sword master you become. In this world, your choices can lead to honor, chaos, or something in between.</p>
+              </div>
+            </article>
+
+            <article class="feature-card">
+              <img src="assets/feature-explore.webp" alt="Where Winds Meet feature art showing a vast open-world landscape" loading="lazy" width="355" height="189" />
+              <div class="feature-copy">
+                <h4>Explore a breathtaking world</h4>
+                <p>Travel across cities, forests, caves, temples, and countless hidden corners of the jianghu. The world feels alive, reactive, and built for discovery.</p>
+              </div>
+            </article>
+
+            <article class="feature-card">
+              <img src="assets/feature-rpg.webp" alt="Where Winds Meet feature art showing a martial artist in a bamboo forest" loading="lazy" width="350" height="196" />
+              <div class="feature-copy">
+                <h4>Deep RPG mechanics</h4>
+                <p>Build a fighting style around speed, timing, weapons, and mystical martial arts. Movement and combat are designed to feel elegant, fast, and cinematic.</p>
+              </div>
+            </article>
+
+            <article class="feature-card">
+              <img src="assets/feature-adventure.webp" alt="Where Winds Meet feature art showing a lively town full of activity" loading="lazy" width="354" height="198" />
+              <div class="feature-copy">
+                <h4>Adventure your way</h4>
+                <p>Play the story solo or jump in with friends when you want company on the road. Whether you explore, duel, or chase progression, the game gives you room to play your way.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- FAQ Section -->
+    <section class="faq section reveal-on-scroll" aria-label="Where Winds Meet FAQs">
+      <div class="container faq-layout">
+        <div class="faq-visual">
+          <img src="assets/faq_character_cutout.webp" alt="Where Winds Meet character artwork" loading="lazy" width="420" height="760" />
+        </div>
+        <div class="faq-content">
+          <p class="section-kicker">Where Winds Meet FAQs</p>
+          <h2>Everything you need to know before you play.</h2>
+
+          <div class="faq-list" id="faqList">
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>Can I play right now?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer"><p>Yes. Where Winds Meet is already available, and this landing page is built to send PC players straight to Steam for install.</p></div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>What kind of game is it?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer"><p>It is an open-world wuxia action RPG with martial arts combat, exploration, story choices, and a strong cinematic fantasy feel.</p></div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>Can I play solo or with friends?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer"><p>You can explore solo or team up with others. The game supports both single-player progression and co-op style play depending on the mode.</p></div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>Why do players install it?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer"><p>Because the hook is strong: stylish movement, fantasy martial arts, a huge world to explore, and a free-to-play entry point that lowers friction.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Graphic Highlights Section -->
+    <section class="reviews section reveal-on-scroll" aria-label="Graphic game highlights">
+      <div class="container">
+        <div class="section-intro centered">
+          <p class="section-kicker">Graphic Highlights</p>
+          <h2>What makes players want to install</h2>
+          <p class="section-copy">
+            Fast, visual proof points built around the real fantasy of the game: scale, combat, freedom, and low-friction entry.
+          </p>
+        </div>
+
+        <div class="reviews-track reviews-track-grid" id="reviewsTrack" role="region" aria-label="Graphic highlight cards">
+            <article class="review-card review-card-visual">
+              <div class="review-card-art" style="background-image:url('assets/feature-explore.webp')"></div>
+              <div class="review-card-scrim"></div>
+              <div class="review-card-body">
+                <span class="review-tag">Open World</span>
+                <div class="stars">20+ Regions</div>
+                <h3>Explore the jianghu at real scale</h3>
+                <p>Ride from crowded cities to hidden wilderness, temples, caves, and routes packed with secrets.</p>
+              </div>
+            </article>
+
+            <article class="review-card review-card-visual">
+              <div class="review-card-art" style="background-image:url('assets/feature-adventure.webp')"></div>
+              <div class="review-card-scrim"></div>
+              <div class="review-card-body">
+                <span class="review-tag">Living World</span>
+                <div class="stars">10,000 NPCs</div>
+                <h3>A world that feels busy and alive</h3>
+                <p>Meet allies, rivals, witnesses, and strangers whose reactions can change the tone of your journey.</p>
+              </div>
+            </article>
+
+            <article class="review-card review-card-visual">
+              <div class="review-card-art" style="background-image:url('assets/feature-rpg.webp')"></div>
+              <div class="review-card-scrim"></div>
+              <div class="review-card-body">
+                <span class="review-tag">Combat Fantasy</span>
+                <div class="stars">40+ Arts</div>
+                <h3>Build a stylish martial arts identity</h3>
+                <p>Mix weapons, movement, and Mystic Arts to create a combat style that looks fast, cinematic, and personal.</p>
+              </div>
+            </article>
+
+            <article class="review-card review-card-visual">
+              <div class="review-card-art" style="background-image:url('assets/feature-weave.webp')"></div>
+              <div class="review-card-scrim"></div>
+              <div class="review-card-body">
+                <span class="review-tag">Low Friction</span>
+                <div class="stars">Free to Play</div>
+                <h3>Easy to start, hard to forget</h3>
+                <p>Jump in on PC, keep your progress across supported platforms, and start without a paywall blocking first install.</p>
+              </div>
+            </article>
+          </div>
+      </div>
+    </section>
+  </main>
+
+    <section class="final-cta section reveal-on-scroll" aria-label="Final call to action">
+      <div class="container final-cta-wrap centered">
+        <p class="section-kicker">Ready to play?</p>
+        <h2>Download free and forge your legend.</h2>
+        <p class="section-copy">Watch the official video or jump straight to Steam and install on PC.</p>
+        <div class="hero-buttons final-cta-buttons">
+          <a href="https://to.wendiro.com/u?k=9db47141846349488810b469b5a18a32&via=23552" target="_blank" rel="noopener noreferrer sponsored" class="store-badge-link">
+            <img src="assets/steam-badge.png" class="store-badge" alt="Available on Steam" width="220" height="64" />
+          </a>
+          <a href="#trailer" class="btn btn-trailer trailer-scroll-btn trailer-match-btn">Watch Trailer</a>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-wrap footer-wrap-minimal">
+      <img src="assets/hero-logo.webp" alt="Where Winds Meet logo" class="footer-logo" width="120" height="120" loading="lazy" />
+      <p><small>Where Winds Meet © 2026. All rights reserved.</small></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
